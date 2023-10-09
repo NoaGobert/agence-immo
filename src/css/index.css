@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: white;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: "Long Cang", cursive;
+}
+
+header {
+    background-color: #303030;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: gold;
+}
+
+.first {
+
+    width: 100vw;
+    height: 80vh;
+}
+
+.Tcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background-image: url("../img/frame.jpg");
+    background-size: cover;
+    background-position: center;
+    gap: 1.2rem;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    max-width: 50vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-p1 {
+    text-align: center;
+    max-width: 90vh;
+}
+
+#yellow {
+    color: yellow;
+
+}
+
+#offres {
+    margin-top: 2rem;
+    height: 100vh;
+    padding: 2rem;
+    color: black;
+    font-family: sans-serif;
+
+}
