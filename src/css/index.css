@@ -103,6 +103,12 @@ ul li a:hover {
     padding: 2rem;
 }
 
+.ligne {
+    width: 20%;
+    height: 0.2rem;
+    background-color: #303030;
+}
+
 #house {
     width: 28rem;
 }
