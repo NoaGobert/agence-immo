@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -17,12 +18,15 @@ body {
 header {
     background-color: #303030;
     color: white;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     padding: 1.2rem;
+
+
 }
 
 ul {
@@ -53,7 +57,7 @@ ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     background-image: url("../img/frame.jpg");
     background-size: cover;
@@ -80,10 +84,34 @@ ul li a:hover {
 }
 
 #offres {
-    margin-top: 2rem;
+
     height: 100vh;
-    padding: 2rem;
     color: black;
     font-family: sans-serif;
 
+}
+
+#titre_offre {
+    font-size: 1.5rem;
+    padding: 3rem;
+    margin-top: 8rem;
+}
+
+.photos {
+    display: flex;
+    gap: 2.5rem;
+    padding: 2rem;
+}
+
+#house {
+    width: 28rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
 }
