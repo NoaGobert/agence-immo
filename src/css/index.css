@@ -25,6 +25,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1.2rem;
 
 
@@ -99,7 +100,7 @@ ul li a:hover {
 
 .photos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 2.5rem;
     padding: 2rem;
 }
